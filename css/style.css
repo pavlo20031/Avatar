@@ -1,0 +1,319 @@
+
+:root{
+    --main-color:#FFF;
+    --active-color:#94CFFF;
+    --accent-color:#26C6EA;
+    --text-color:#0A3853;
+    --subtitle-color:#000;
+    --title-color:#141414;
+    --header-bg:rgba(43, 74, 97, 0.87);
+    --bg-button:#0B0E66;
+    --bg-card:rgba(255, 255, 255, 0.70);
+}
+.body{
+font-family: Inter;
+}
+.container{
+    width: 1055px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+}
+.header{
+border-bottom: 3px solid var(--main-color);
+background-image:linear-gradient(var(--header-bg), var(--header-bg)), url(../img/footer,header-bg.webp);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 39px 0 39px 0;
+}
+.header-box{
+    display: flex;
+}
+.header-nav{
+    display: flex;
+    gap: 212px;
+}
+.header-nav2{
+    display: flex;
+    gap: 228px;
+}
+.header-list{
+    display: flex;
+    gap: 38px;
+    justify-content: center;
+    align-items: center;
+}
+.header-functions{
+    display: flex;
+    gap: 49px;
+    justify-content: center;
+    align-items: center;
+}
+.header-function:nth-child(2){
+display: flex;
+gap: 10px;
+justify-content: center;
+align-items: center;
+}
+.header-logo{
+    margin-right: 168px;
+}
+.header-logo2{
+    margin-right: 184px;
+}
+.header-link{
+color: var(--main-color);
+text-align: center;
+font-size: 20px;
+font-weight: 300;
+line-height: 1.2;
+}
+.header-link2{
+display: flex;
+gap: 8.5px;
+}
+.header-button{
+width: 141px;
+border-radius: 45px 0px;
+border: 3px solid var(--accent-color);
+background:var(--bg-button) ;
+color:var(--accent-color);
+text-align: justify;
+font-family: "HeadlandOne";
+font-size: 20px;
+font-weight: 400;
+line-height: 1.25;
+padding: 9px 38px 8px 38px;
+}
+.active{
+color:var(--active-color) ;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+line-height: 1.2;
+}
+.header-language{
+color: var(--main-color);
+text-align: center;
+font-family: "Hammersmith One";
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+.hero{
+background-image: url(../img/hero-bg.webp);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 180px 0 179px 0;
+}
+.hero-text{
+width: 298px;
+color: var(--main-color);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.2;
+}
+.hero-text2{
+width: 376px;
+color: var(--main-color);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.2;
+margin-bottom: 42px;
+}
+.hero-button{
+    width: 260px;
+    height: 80px;
+border-radius: 45px 0px;
+border: 3px solid var(--accent-color);
+background: var(--bg-button);
+color: var(--accent-color);
+text-align: center;
+font-family: HeadlandOne;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+padding: 10px 31px 10px 30px;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-list{
+    display: flex;
+    flex-direction: column;
+}
+.hero-item:nth-child(2){
+    margin-top: 24px;
+    margin-bottom: 27px;
+}
+.hero-img{
+    margin-left: 72px;
+}
+.quote{
+    padding: 75px 0 10px 0;
+}
+.quote-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-title{
+    width: 1002px;
+color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-weight: 400;
+line-height: 1.2;
+}
+.quote-subtitle{
+color: #000;
+text-align: center;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.2;
+margin: 16px 0 8px 0;
+}
+.quote-img{
+    width: 400px;
+}
+.trailer{
+    background-image: url(../img/trailer-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 330px 0 331px 0;
+}
+.trailer-button{
+border-radius: 45px 0px;
+border: 3px solid var(--accent-color);
+background: var(--bg-button);
+color: var(--accent-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-weight: 400;
+line-height: 1.25;
+padding: 25px 20px 25px 19px;
+}
+.trailer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.language{
+    background-image: url(../img/language-bg.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 58px 0 57px 0;
+}
+.language-item{
+width: 320px;
+height: 240px;
+    background:var(--bg-card) ;
+}
+.language-title{
+color: #141414;
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 32px;
+font-weight: 400;
+line-height: 1.25;
+margin-bottom: 45px;
+}
+.language-subtitle{
+color: var(--title-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-weight: 400;
+line-height: 1; 
+}
+.language-subtitle2{
+color: var(--subtitle-color);
+text-align: justify;
+font-family: HeadlandOne;
+font-size: 24px;
+font-weight: 400;
+line-height: 1;
+}
+.language-img2{
+width: 152px;
+height: 40px;
+}
+.language-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.language-list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 35px;
+}
+.language-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.language-img{
+    margin: 40px 0 40px 0;
+}
+.footer{
+    background-image:linear-gradient(rgba(43, 74, 97, 0.87), rgba(43, 74, 97, 0.87)), url(../img/footer,header-bg.webp) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 35px 0;
+}
+.footer-text,
+.footer-link{
+color: var(--main-color);
+text-align: justify;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.2;
+}
+.footer-information{
+color: #FFF;
+text-align: justify;
+font-size: 14px;
+font-weight: 400;
+line-height: 1.2 ;
+}
+.footer-img{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 45px;
+    margin-bottom: 37px;
+}
+.footer-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
